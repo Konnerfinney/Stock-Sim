@@ -1,0 +1,9 @@
+.nav-btn {
+    padding: 8px;
+}
+
+@media (max-width: 992px){
+.nav-btn {
+    padding-right: var(--bs-navbar-nav-link-padding-x)-.5rem;
+    padding-left: var(--bs-navbar-nav-link-padding-x)-.5rem;
+}}
